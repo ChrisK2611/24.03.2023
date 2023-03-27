@@ -1,0 +1,12 @@
+h1:first-of-type::first-letter {
+    color: #00796B;
+    font-size: 3em;
+}
+
+h1:hover:first-of-type::first-letter {
+    color: #4FC3F7;
+}
+
+.gym::after {
+    content: "gym.png";
+}

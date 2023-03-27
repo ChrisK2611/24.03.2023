@@ -1,0 +1,57 @@
+h3:hover {
+    color: red;
+    font-family: 'sans-serif';
+}
+
+ul li:first-child {
+    color: #4E342E;
+    font-family: 'Tahoma';
+}
+
+ul li:nth-child(2) {
+    color: #689f38;
+    font-family: 'Montserat', sans-serif;
+    }
+
+
+ul li:nth-child(3) {
+    color: #EF5350;
+    font-family: 'Raleway', sans-serif;    
+
+}
+
+section p:nth-child(1) {
+    color: #999;
+}
+
+
+p:not(.last) {
+    font-size: 26px;   
+}
+
+p:nth-of-type(even) {
+    color: #0277bd;
+
+}
+
+button {
+    background: linear-gradient(rgb(197, 14, 142), rgb(60, 0, 255));
+    padding: 15px 25px;
+    border: 3px double black;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 22%;
+    font-size: 20px;
+}
+
+button:hover {
+    color: black;
+    width: 25%;
+    font-size: 25px;
+    transition: ease 0.5s;
+}
+
+button:active {
+    background: linear-gradient(rgb(228, 228, 9), rgb(115, 10, 115));
+}

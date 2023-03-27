@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Mont;
+    src: url(./assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+    }
+
+p::first-letter {
+    color: #00ced1;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+p::first-line {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+p:after::first-line {
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    color: #2e8b57;
+}
+
+h1::before {
+    content: "Hi!";
+    color: #32cd32;
+}
+
+h3::selection {
+    background-color: #a020f0;
+}
+
